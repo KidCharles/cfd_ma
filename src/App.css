@@ -6,7 +6,7 @@
   background-color: #1c77ac;
   position: relative;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-around;
   align-items: flex-end;
   background-image: url("https://i.imgur.com/d0LlyIi.png");
@@ -17,11 +17,16 @@
   overflow: hidden;
 }
 .titlePrompt {
-  width: 600px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   z-index: 2;
   align-self: flex-start;
+  align-items: center;
+  justify-content: center;
+}
+.titlePromptContainer{
+  width: 90vw;
 }
 .titlePrompt h1 {
   color: #fff;
@@ -56,10 +61,18 @@
   align-items: flex-end;
   box-sizing: border-box;
 }
+.pictureConainerCover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #005b8285;
+  display: flex;
+}
 .pictureConainer div {
   width: 45vw;
   display: flex;
   justify-content: center;
+  align-self: flex-start;
 }
 
 .picture {
@@ -90,4 +103,27 @@
   font-size: 0.8rem;
   font-family: "Open Sans";
   font-weight: normal;
+}
+
+
+@media (min-width: 769px) {
+
+  .appContianer {
+   
+    flex-direction: row;
+  }
+
+  .titlePrompt {
+    width: 600px;
+  }
+
+  .pictureConainer div {
+    align-self: flex-end;
+  }
+  .pictureConainerCover {
+    display: none;
+  }
+
+
+  
 }

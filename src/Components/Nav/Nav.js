@@ -17,14 +17,18 @@ export default function Nav(props) {
         />
       </div>
       <div>
-        <img className="phoneIcon"src="https://i.imgur.com/PhmyHS2.png" alt="phone icon" />
+        <img
+          className="phoneIcon"
+          src="https://i.imgur.com/PhmyHS2.png"
+          alt="phone icon"
+        />
         <ul>
           <a
             data-replaceable-phone-dialable=""
             href="tel:18559310268"
             style={{ textDecoration: "none" }}
           >
-            <li>1-855-931-0268(TTY:711)</li>
+            <li>1-855-931-0268 ( TTY:711 )</li>
           </a>
           <li>
             <span>8am to 8pm, Monday-Friday</span>

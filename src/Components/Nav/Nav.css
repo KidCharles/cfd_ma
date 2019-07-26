@@ -64,16 +64,14 @@
 }
 
 .nav_wrapper ul li span {
-  color: #0a9ad7;
+  color: #b3e8ff;
   font-size: 14px;
   letter-spacing: 1px;
   font-weight: normal;
 }
 
-.phoneIcon{
-  width: 40px;
-  margin:0;
-  padding: 0px 40px;
+.phoneIcon {
+  display: none;
 }
 
 @media (min-width: 769px) {
@@ -84,6 +82,12 @@
     width: 10vw;
     display: inherit;
     margin-left: 3rem;
+  }
+  .phoneIcon {
+    display: inherit;
+    width: 40px;
+    margin: 0;
+    padding: 0px 40px;
   }
   .cfd_icon_mobile {
     display: none;

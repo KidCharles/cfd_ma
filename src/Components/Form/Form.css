@@ -45,8 +45,12 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.dateTime select {
+.dateTimeContainer {
   width: 33%;
+  display: flex;
+  flex-direction: column;
+}
+.dateTime select {
   border: 1px solid #bebebe;
   border-radius: 4px;
   height: 40px;
@@ -57,18 +61,65 @@
   outline: none;
 }
 
-.callButton {
+.inactiveButton {
   width: 100%;
   margin-top: 20px;
   background-color: #f15a29;
   color: #ffffff;
-  font-size: 1.1146rem;
+  font-size: 1rem;
   font-family: "Open Sans";
   font-weight: 800;
   height: 3.25rem;
-  width: 22.6875rem;
+  /* width: 22.6875rem; */
   border-radius: 41px;
+  outline: none;
+  cursor: not-allowed;
+}
+
+.activeButton {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #f15a29;
+  color: #ffffff;
+  font-size: 1rem;
+  font-family: "Open Sans";
+  font-weight: 800;
+  height: 3.25rem;
+  /* width: 22.6875rem; */
+  border-radius: 41px;
+  outline: none;
+  cursor: pointer;
+}
+
+.activeButton:hover {
+  background-color: #ff784b;
+}
+.activeButton:active {
+  background-color: #a13c1a;
+  box-shadow: 0 0 5px 0 #696969;
+}
+
+.error {
+  display: flex;
+  flex-direction: row;
+  font-size: 12px;
+  font-weight: 100;
+  color: #e03063;
+  text-align: left;
 }
 
 @media (min-width: 769px) {
+  .inactiveButton {
+    font-size: 1.1146rem;
+
+  }
+  .activeButton {
+    font-size: 1.1146rem;
+
+  }
+
+
+
+
+  
 }
