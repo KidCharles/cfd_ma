@@ -69,6 +69,12 @@
   font-weight: normal;
 }
 
+.phoneIcon{
+  width: 40px;
+  margin:0;
+  padding: 0px 40px;
+}
+
 @media (min-width: 769px) {
   .nav_wrapper p {
     display: inherit;

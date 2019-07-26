@@ -3,13 +3,11 @@
 }
 
 .appContianer {
-  /* background-color: #1561ad; */
   background-color: #1c77ac;
-  /* background-color: #1dbab4; */
-  /* background-color: #fc5226; */
   display: flex;
-  flex-direction: column;
-  padding-left: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   background-image: url("https://i.imgur.com/d0LlyIi.png");
   background-color: #3399cc;
   background-position: center; /* Center the image */
@@ -30,7 +28,7 @@
   font-family: "Open Sans";
   font-weight: normal;
 }
-.titlePrompt h1 span{
+.titlePrompt h1 span {
   color: #fff;
   text-align: left;
   font-size: 2rem;
@@ -50,8 +48,26 @@
 }
 
 .disclaimer {
-  color: #414042;
+  color: #e6e7e8;
   text-align: left;
+  font-size: 0.8rem;
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+
+.appContainer2 {
+  width: 100%;
+  background-color: #005c82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+}
+.appContainer2 p {
+  width: 90%;
+  margin: 0px;
+  padding: 0px;
+  color: #e6e7e8;
   font-size: 0.8rem;
   font-family: "Open Sans";
   font-weight: normal;
