@@ -29,8 +29,16 @@ function App() {
             </p>
           </div>
         </div>
-        <div>
-          <img src="https://i.imgur.com/Ppag9Pz.jpg" alt="" />
+        <div />
+        <div className="pictureConainer">
+          <div />
+          <div>
+            <img
+              className="picture"
+              src="https://i.imgur.com/ycBurZa.png"
+              alt="lady holding phone"
+            />
+          </div>
         </div>
       </div>
 

@@ -4,22 +4,24 @@
 
 .appContianer {
   background-color: #1c77ac;
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-end;
   background-image: url("https://i.imgur.com/d0LlyIi.png");
   background-color: #3399cc;
-  background-position: center; /* Center the image */
+  background-position: left; /* Center the image */
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 }
 .titlePrompt {
-  width: 45vw;
-  /* background-image:; */
+  width: 600px;
   display: flex;
   flex-direction: row;
+  z-index: 2;
+  align-self: flex-start;
 }
 .titlePrompt h1 {
   color: #fff;
@@ -43,8 +45,25 @@
   font-family: "Open Sans";
   font-weight: normal;
 }
-.appContianer img {
-  width: 200px;
+
+.pictureConainer {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+.pictureConainer div {
+  width: 45vw;
+  display: flex;
+  justify-content: center;
+}
+
+.picture {
+  height: 600px;
 }
 
 .disclaimer {
