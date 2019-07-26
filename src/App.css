@@ -1,33 +1,22 @@
 .App {
   text-align: center;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.appContianer{
+  /* background-color: #1561ad; */
+  background-color: #1c77ac;
+  /* background-color: #1dbab4; */
+  /* background-color: #fc5226; */
+  
+}
+.appContianer h1{
+
+}
+.appContianer p{
+
+}
+.appContianer img{
+width:200px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
