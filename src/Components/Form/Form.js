@@ -73,9 +73,6 @@ export default class Form extends Component {
         timeError: "",
         formValid: !this.state.formValid
       });
-      window.confirm(
-        `the Lead for ${this.state.firstName} has been submitted! GET$$`
-      );
     }
     this.props.onSubmit(this.state);
   };
