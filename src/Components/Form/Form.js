@@ -9,14 +9,16 @@ export default class Form extends Component {
   };
   render() {
     return (
-      <div>
+      <div className="formWrapper">
         <form>
-          <p>Contact Information</p>
+          <p className="formTitle">
+            Get the Medicare benefits that fit your needs
+          </p>
+          <p className="subTitle">Contact Information</p>
           <input type="text" className="" placeholder="First Name" />
           <input type="text" className="" placeholder="Last Name" />
-          <p>Contact Information</p>
-          Pick a Date and Time
-          <div>
+          <p className="subTitle">Pick a Date and Time</p>
+          <div className="dateTime">
             <select>
               <option value="">Month</option>
               <option value="">January</option>
@@ -76,8 +78,8 @@ export default class Form extends Component {
               <option value="">6:00 PM - 8:00 pm</option>
             </select>
           </div>
-          <button type="" className="">
-            Give Me a Call
+          <button type="" className="callButton">
+            Have a Licensed Agent call me
           </button>
         </form>
       </div>

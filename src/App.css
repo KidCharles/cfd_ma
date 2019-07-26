@@ -1,22 +1,58 @@
 .App {
   text-align: center;
-
 }
 
-.appContianer{
+.appContianer {
   /* background-color: #1561ad; */
   background-color: #1c77ac;
   /* background-color: #1dbab4; */
   /* background-color: #fc5226; */
-  
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  background-image: url("https://i.imgur.com/d0LlyIi.png");
+  background-color: #3399cc;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
-.appContianer h1{
+.titlePrompt {
+  width: 45vw;
+  /* background-image:; */
+  display: flex;
+  flex-direction: row;
+}
+.titlePrompt h1 {
+  color: #fff;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Open Sans";
+  font-weight: normal;
+}
+.titlePrompt h1 span{
+  color: #fff;
+  text-align: left;
+  font-size: 2rem;
+  font-family: "Open Sans";
+  font-weight: 800;
+}
 
+.subHeader {
+  color: #fff;
+  text-align: left;
+  font-size: 1.2em;
+  font-family: "Open Sans";
+  font-weight: normal;
 }
-.appContianer p{
+.appContianer img {
+  width: 200px;
+}
 
+.disclaimer {
+  color: #414042;
+  text-align: left;
+  font-size: 0.8rem;
+  font-family: "Open Sans";
+  font-weight: normal;
 }
-.appContianer img{
-width:200px;
-}
-

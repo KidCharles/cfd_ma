@@ -1,32 +1,31 @@
 import React from "react";
 import "./App.css";
 
+import Nav from "./Components/Nav/Nav";
 import Form from "./Components/Form/Form";
 
 function App() {
   return (
     <div className="App">
+      <Nav />
       <div className="appContianer">
-        <div>
-          <h1>
-            At CareFree Direct, we find the right healthcare solutions, so you
-            don't have to
-          </h1>
-          <p>
-            {" "}
-            Talk to one of our friendly licensed benefit advisors now to learn
-            about your coverage options
-          </p>
+        <div className="titlePrompt">
           <div>
+            <h1>
+              At CareFree Direct, <span>we find the right healthcare solutions,</span> so you
+              don't have to
+            </h1>
+            <p className="subHeader">
+              {" "}
+              Talk to one of our friendly licensed benefit advisors now to learn
+              about your coverage options
+            </p>
             <Form />
-            <p>
+            <p className="disclaimer">
               *By completing this form, You are giving permission to CareFree
               Direct to contact you
             </p>
           </div>
-        </div>
-        <div>
-          <img src="https://i.imgur.com/Ppag9Pz.jpg" alt="CFD" />
         </div>
       </div>
 
