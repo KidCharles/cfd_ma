@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
+import "./reset.css";
+
 
 import Nav from "./Components/Nav/Nav";
 import Form from "./Components/Form/Form";
@@ -22,8 +24,8 @@ export default class App extends Component {
             <div className="titlePromptContainer">
               <h1>
                 At CareFree Direct,{" "}
-                <span>we find the right healthcare solutions,</span> so you
-                don't have to
+                <span>we find the right Medicare solutions,</span> so you don't
+                have to
               </h1>
               <p className="subHeader">
                 {" "}
@@ -48,8 +50,7 @@ export default class App extends Component {
               />
             </div>
           </div>
-          <div className="pictureConainerCover">
-          </div>
+          <div className="pictureConainerCover" />
         </div>
 
         <div className="appContainer2">
